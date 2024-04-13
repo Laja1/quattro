@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default color */
+.fill-text_dark {
+    fill: #000000; /* Set the default color */
+  }
+  
+  /* Dark mode color */
+  .dark .fill-text_dark {
+    fill: #d2c69e; /* Set the color for dark mode */
+  }
+
+  .rot{
+    transform: rotate(-90deg);
+  }
+  .sedan-regular {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .dm-serif {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Butler";
+    src: local("ButlerBold"),
+     url("./fonts/Butler/Butler_Bold.o  tf") format("truetype");
+    font-weight: bold;
+   }
+   
