@@ -2,6 +2,9 @@ import React,{useState,useEffect} from 'react'
 import About from './components/About'
 import Youth from './components/Youth'
 import Stories from './components/Stories'
+import Latest from './components/Latest'
+import Laja from './components/Laja'
+import Shoot from './components/Shoot'
 export default function App() {
   const [darkMode, setDarkMode] = useState(false)
 
@@ -49,6 +52,9 @@ else{
 <div><About darkShit={darkMode}/>
 <Youth darkShit={darkMode}/>
 <Stories darkShit={darkMode}/>
+<Latest darkShit={darkMode}/>
+<Shoot darkShit={darkMode}/>
+<Laja darkShit={darkMode}/>
 </div>
     </div>
   )
