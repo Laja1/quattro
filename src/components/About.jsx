@@ -11,7 +11,7 @@ export default function About({ darkShit }) {
           <p className="font-fac sedan-regular md:text-[50px] dm-serif text-[30px] lg:text-[70px] text-black">
             cinematic
             <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;timeless
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; & timeless
           </p>
           <p className='text-black text-[12px] font-bold md:text-md lg:text-xl'>WEDDING <br />PHOTOGRAPHERS</p>
         </div>

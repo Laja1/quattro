@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function Latest({darkShit}) {
   return (
-    <div className='flex flex-col items-center justify-center text-center'>
+    <div className='flex flex-col mt-[100px]  lg:mt-[-900px] items-center justify-center text-center'>
       <p className='text-2xl font-extrabold mb-4'>LATEST STORIES</p>
       <motion.div className='motion-safe:animate-bounce'>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
